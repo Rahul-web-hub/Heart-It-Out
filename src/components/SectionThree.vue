@@ -176,5 +176,8 @@ export default {
     width: 30px;
     height: 30px;
   }
+  .arrow-button{
+    border-radius: 0;
+  }
 }
 </style>
