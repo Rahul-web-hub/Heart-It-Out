@@ -1,6 +1,6 @@
 <template>
   <div class="card mt-4">
-    <div class="text-center header">SECTION III [25 points]</div>
+    <div class="text-center header p-4">SECTION III [25 points]</div>
     <div class="card-body">
       <div class="position-relative">
         <button
