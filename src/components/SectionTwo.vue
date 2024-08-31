@@ -65,22 +65,22 @@ export default {
   mounted() {
     this.fetchShowsForWords();
   },
-  methods: {
-    async fetchShowsForWords() {
-      for (const word of this.randomWords) {
-        try {
-          const response = await fetch(`https://api.tvmaze.com/search/shows?q=${word}`);
-          const data = await response.json();
-          this.randomWordsWithShows.push({
-            word: word,
-            shows: data.slice(0, 3)
-          });
-        } catch (error) {
-          console.error(`Error fetching shows for ${word}:`, error);
-        }
+ methods: {
+  async fetchShowsForWords() {
+    for (const word of this.randomWords) {
+      try {
+        const response = await fetch(`${process.env.VUE_APP_API_URL}${word}`);
+        const data = await response.json();
+        this.randomWordsWithShows.push({
+          word: word,
+          shows: data.slice(0, 3)
+        });
+      } catch (error) {
+        console.error(`Error fetching shows for ${word}:`, error);
       }
     }
   }
+}
 };
 </script>
 
