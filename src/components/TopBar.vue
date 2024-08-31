@@ -1,6 +1,6 @@
 <template>
     <div class="image-div d-flex justify-content-center align-items-cente mb-4">
-        <img src="../assets//log.svg" alt="loading" class="img-fluid m-2">
+        <img src="../assets//logo.svg" alt="loading" class="img-fluid m-2">
     </div>
 </template>
 
