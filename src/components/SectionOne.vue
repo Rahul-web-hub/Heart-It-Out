@@ -15,6 +15,7 @@
           <div class="mb-3 mt-5">
             <label class="form-label">Lorem ipsum dolor sit amet</label>
             <select v-model="selectedDropdown" class="form-select">
+              <option value="" disabled>Drop Down Options</option>
               <option v-for="option in dropdownOptions" :key="option" :value="option">{{ option }}</option>
             </select>
           </div>
@@ -61,22 +62,21 @@ export default {
 </script>
 
 <style scoped>
-button{
+button {
   background-color: #01818C;
   color: white;
 }
 .btn:hover {
-  background-color:#01818C; 
-  color: white; 
+  background-color:#01818C;
+   color: white;
 }
-.card{
-  
-  border: none;
+.card {
+    border: none;
 }
-.mb-3{
+.mb-3 {
   font-size:1.2rem ;
 }
-.header{
+.header {
     color: #01818C;
     font-size: 1.6rem;
 }
