@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-md-10"> <!-- Increased column width for more space -->
+      <div class="col-md-10">
         <div class="card mb-4">
           <div class="header text-center">SECTION II [20 points]</div>
           <div class="card-body">

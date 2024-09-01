@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <header>
-      <!-- Add your header content here -->
     </header>
     <main>
       <top-bar/>
@@ -11,7 +10,6 @@
       <bottom-bar/>
     </main>
     <footer>
-      <!-- Add your footer content here -->
     </footer>
   </div>
 </template>
@@ -36,5 +34,4 @@ export default {
 </script>
 
 <style>
-/* Add any global styles here */
 </style>
